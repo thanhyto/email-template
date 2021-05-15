@@ -1,0 +1,99 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    margin:0;
+}
+.row{
+    height: 100vh;
+}
+.my-col-left{
+    background-color: whitesmoke;
+}
+ul{
+    font-size: 0.75em;
+    line-height: 2em;
+}
+h6{
+    font-weight: bold;
+}
+ul{
+    color:rgba(0,0,0,0.8);
+}
+li{
+    color:black;
+    cursor: pointer;
+}
+li:hover{
+    color:#0d6efd;
+}
+.active{
+    color:#0d6efd;
+    font-weight: bold;
+}
+i{
+    color:#0d6efd;
+    width:20px;
+    height:auto;
+    size:1em;
+}
+i:hover{
+    cursor:pointer;
+}
+.my-col-center{
+    background-color: lightblue;
+}
+.my-col-right{
+    background-color: whitesmoke;
+}
+#search{
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+.btn{
+    background-color: white;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    color:#0d6efd;
+}
+.btn:hover {
+    background-color: rgb(55, 77, 146);
+}
+.card{
+    cursor:pointer;
+    background-color:lightskyblue;
+}
+.card-title{
+    font-weight:bold;
+}
+.card-text{
+    font-size: 0.8em;
+}
+.time{
+    font-weight: normal;
+    
+}
+.email{
+    color:rgb(55, 76, 168);
+    size: 20px;
+}
+.my-card-active{
+    background-color:white;
+}
+.address{
+    font-size: 0.6em;
+}
+h2{
+    font-weight:bold;
+}
+p{
+    font-size:1em;
+}
+textarea{
+    width:100%;
+    font-size:0.8em;
+    outline:none;
+}
