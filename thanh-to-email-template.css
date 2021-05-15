@@ -20,6 +20,8 @@ h6{
 }
 ul{
     color:rgba(0,0,0,0.8);
+    font-size: 1em;
+    line-height: 2em;
 }
 li{
     color:black;
@@ -67,13 +69,16 @@ i:hover{
     background-color:lightskyblue;
 }
 .card-title{
+    font-size:1.25em;
     font-weight:bold;
 }
 .card-text{
-    font-size: 0.8em;
+    font-size: 1em;
 }
-.time{
+#time{
     font-weight: normal;
+    font-size: 0.8em;
+    color:black;
     
 }
 .email{
@@ -94,6 +99,6 @@ p{
 }
 textarea{
     width:100%;
-    font-size:0.8em;
+    font-size:1em;
     outline:none;
 }
